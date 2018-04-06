@@ -1,0 +1,17 @@
+// function WaitForConnect() {
+// 	$.ajax({
+// 		type: 'GET',
+// 		url: 'http://176.97.34.40:6064/?command=connect&principal=1',
+// 		// url: '/srv/pool.php?get=connect&principal=1',
+// 		async: true,
+// 		cache: false,
+// 		success: (data) => {
+// 			console.log('da', data);
+// 			let json = eval('(' + data + ')');
+// 			WaitForPool(json.root[0].connection);
+// 		},
+// 		error: (XMLHttpRequest, textStatus, errorThrown) => {
+// 			WaitForPool(json.root[0].connection);
+// 		}
+// 	});
+// }

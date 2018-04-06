@@ -1,0 +1,25 @@
+// map.on('zoomend', () => {
+// 	zoom = map.getZoom();
+// 	// console.log('zoom', zoom);
+// 	mrkOn.clearLayers();
+// 	mrkOff.clearLayers();
+// 	bounds = map.getBounds();
+// 	for (let k in global.slices){
+// 		let sls = global.slices[k];
+// 		if(bounds.contains(sls.latlon)){
+// 			addMrkOnMap(sls.sls, global.data[sls.sls.header.id]);
+// 		}
+// 	}
+// });
+// map.on('moveend', () => {
+// 	bounds = map.getBounds();
+// 	mrkOn.clearLayers();
+// 	mrkOff.clearLayers();
+// 	bounds = map.getBounds();
+// 	for (let k in global.slices){
+// 		let sls = global.slices[k];
+// 		if(bounds.contains(sls.latlon)){
+// 			addMrkOnMap(sls.sls, global.data[sls.sls.header.id]);
+// 		}
+// 	}
+// });

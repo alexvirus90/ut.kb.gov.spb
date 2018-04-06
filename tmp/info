@@ -1,0 +1,53 @@
+
+				// root:Array(1)
+				// 	0:
+				// 		adc:(3) [1023, 0, 0]
+				// 		course:49.41
+				// 		dab_level:27gj
+				// 		flags:64
+				// 		header:{id: 10014, type: 0, point: 1}
+				// 		key:0
+				// 		lat:0
+				// 		lon:0
+				// 		mode:80
+				// 		mode_quality:21
+				// 		mode_time:10
+				// 		sensors:1024
+				// 		speed:0
+				// 		time:"2017-12-22 13:30:20"
+				// 		__proto__:Object
+				// 	length:1
+				// 	__proto__:Array(0)
+				// success:true
+
+
+
+        currentTarget:Window {postMessage: ƒ, blur: ƒ, focus: ƒ, close: ƒ, frames: Window, …}
+        data:undefined
+        delegateTarget:Window {postMessage: ƒ, blur: ƒ, focus: ƒ, close: ƒ, frames: Window, …}
+        did :6444
+        handleObj:{type: "onAddSlice", origType: "onAddSlice", data: undefined, handler: ƒ, guid: 11, …}
+        isTrigger: 3
+        jQuery112409085078416575441 :true
+        namespace: ""
+        obj:
+            adc:(3) [849, 0, 0]
+            course:352
+            dab_level:0
+            flags : 2
+            header : {id: 6444, type: 0, point: 1}
+            key :  0
+            lat : 59.856915
+            lon  : 30.116042
+            mode : 80
+            mode_quality: 19
+            mode_time : 120
+            sensors : 264
+            speed: 0
+            time:"2017-12-25 11:29:32"
+
+        result : undefined
+        rnamespace : null
+        target:Window {postMessage: ƒ, blur: ƒ, focus: ƒ, close: ƒ, frames: Window, …}
+        timeStamp :1514190573320
+        type:"onAddSlice"

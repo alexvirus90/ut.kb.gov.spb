@@ -1,0 +1,40 @@
+// $.ajax({
+// 	type: 'GET',
+// 	url: 'http://176.97.34.40:6064/?command=receive&connection=74',
+// 	// url: '/json.json',
+// 	cache: true,
+// 	// timeout: 3000,
+// })
+// 	.done(function(data){
+//
+// 		let json  = eval('(' + data + ')');
+// 		let str   = JSON.stringify(json);
+// 		let slice = JSON.parse(str);
+//
+// 		for (let k in slice.root) {
+// 			if (slice.root[k] instanceof Object) {
+// 				if (typeof slice.root[k].header == "undefined") continue;
+// 				if (!slice.root[k].header instanceof Object) continue;
+// 				if (slice.root[k].header.type == "33") continue;
+// 				if (slice.root[k].header.type == "34") continue;
+// 				if (slice.root[k].lat == undefined || slice.root[k].lon == undefined) continue;
+// 				if (slice.root[k].lat == 0 || slice.root[k].lon == 0) continue;
+// 				if ((slice.root[k].flag & 32) == 32) continue;
+//
+// 				let idn = slice.root[k].header.id;
+// 				if(global.slices[idn] !== undefined){
+// 					updateSlice.obj = {sls: slice.root[k], latlon: [slice.root[k].lat, slice.root[k].lon]};
+// 					updateSlice.did = idn;
+// 					$(window).trigger(updateSlice);
+// 				}else{
+// 					global.slices[idn] = {sls: slice.root[k], latlon: [slice.root[k].lat, slice.root[k].lon]};
+// 					addSlice.obj = slice.root[k];
+// 					addSlice.did = idn;
+// 					$(window).trigger(addSlice);
+// 				}
+// 			}
+// 		}
+// 	})
+// 	.fail(function () {
+//
+// 	})

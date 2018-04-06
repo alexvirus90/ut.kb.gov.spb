@@ -1,0 +1,6 @@
+// $(window).on('onAddSlice', (e) => {
+// 	addMrkOnMap(e.obj, global.data[e.did]);
+// });
+// $(window).on('onUpdateSlice', (e) => {
+// 	updMrkOnMap(e.obj, global.data[e.did]);
+// });
